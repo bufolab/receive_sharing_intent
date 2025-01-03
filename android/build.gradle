@@ -27,6 +27,8 @@ rootProject.allprojects {
 }
 
 android {
+    compileSdkVersion 34
+
     if (project.android.hasProperty("namespace")) {
         namespace 'com.kasem.receive_sharing_intent'
     }
